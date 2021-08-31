@@ -12,6 +12,12 @@ It is still needed to update any boot configuration, e.g. `startup.nsh` to point
 
 To build `.deb` packages,
 
+### Prerequsites
+
+```
+sudo apt-get --no-install-recommends install  gcc-arm-linux-gnueabihf libssl-dev bc flex bison cpio dpkg-dev build-essential rsync kmod
+```
+
 ```
 make ARCH=arm grate_defconfig
 make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- -j $(nproc) bindeb-pkg
