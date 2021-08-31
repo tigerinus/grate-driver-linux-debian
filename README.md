@@ -1,2 +1,3 @@
 # grate-driver-linux-debian
-Empty repository to host Debian packages of `grate-drive/linux` kernels.
+
+An empty repository to host Debian packages of [grate-driver/linux](https://github.com/grate-driver/linux) kernels.
